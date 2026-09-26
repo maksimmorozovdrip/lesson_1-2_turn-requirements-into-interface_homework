@@ -1,4 +1,7 @@
 # Шаблон ТЗ: история о человеке
+Ссылка на исходный файл https://github.com/AndreiChukh/lesson_1-2_turn-requirements-into-interface_practice/blob/master/tech-task-template.md
+**Ссылка на PR с ТЗ:** https://github.com/AndreiChukh/lesson_1-2_turn-requirements-into-interface_practice/pull/9
+
 ## Темы на выбор
 
 1. **Самое яркое положительное событие.** Событие, которое приятно вспоминать и которое что-то изменило.
@@ -154,6 +157,6 @@
 **Комментарий заказчика:** «ТЗ СОГЛАСОВАНО»
 
 **Ссылка на PR с ТЗ:** https://github.com/AndreiChukh/lesson_1-2_turn-requirements-into-interface_practice/pull/9
-Ссылка на исходный файл https://github.com/AndreiChukh/lesson_1-2_turn-requirements-into-interface_practice/blob/master/tech-task-template.md
+
 
 **Статус:** MERGED
