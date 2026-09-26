@@ -233,3 +233,12 @@ h2 {
   margin-bottom: 0;
 }
 
+.result {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  #result-title {
+    font-size: 24px;
+  }
+}
