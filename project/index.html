@@ -5,15 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Учебный проект по техническому заданию"
+      content="Универсальный шаблон персональной истории"
     />
-    <title>Учебный проект</title>
+    <title>Название истории — имя героя</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <main>
-      <h1>Учебный проект</h1>
-      <p>Стартовая версия страницы.</p>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-header__brand" href="#top">Название истории</a>
+        <nav class="site-header__nav" aria-label="Навигация по истории">
+          <a href="#story">История</a>
+          <a href="#facts">Факты</a>
+          <a href="#result">Итог</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- Первый экран: герой, тема и главная мысль из ТЗ. -->
+      <section class="hero container" aria-labelledby="hero-title">
+        <div class="hero__content">
+          <p class="eyebrow">Выбранная тема · Имя героя</p>
+          <h1 id="hero-title">Короткий заголовок главной истории</h1>
+          <p class="hero__lead">
+            Одно-два предложения, которые передают главную мысль и помогают
+            посетителю понять, почему эта история важна.
+          </p>
+          <a class="button" href="#story">Узнать подробности</a>
+        </div>
+
+        <aside class="hero__note" aria-label="Ключевой акцент">
+          <p class="hero__note-label">Главное</p>
+          <p>
+            Короткий факт, результат или формулировка, которую посетитель
+            должен запомнить.
+          </p>
+        </aside>
+      </section>
+
+      <!-- Основной рассказ: контекст, действие и результат. -->
+      <section id="story" class="story container" aria-labelledby="story-title">
+        <div class="section-heading">
+          <p class="section-heading__number">01</p>
+          <h2 id="story-title">История</h2>
+        </div>
+
+        <div class="story__content">
+          <p class="story__intro">
+            Здесь размещается краткий контекст: где начинается история и с
+            какой задачей, идеей или выбором столкнулся герой.
+          </p>
+          <p>
+            Во втором абзаце можно раскрыть главное действие, решение или ход
+            мысли. Оставьте только сведения, которые поддерживают ТЗ.
+          </p>
+          <p>
+            Завершите рассказ результатом, предполагаемым эффектом или тем,
+            как этот опыт повлиял на героя.
+          </p>
+        </div>
+      </section>
+
+      <!-- Три повторяющихся элемента — базовый пример Grid. -->
+      <section id="facts" class="facts container" aria-labelledby="facts-title">
+        <div class="section-heading">
+          <p class="section-heading__number">02</p>
+          <h2 id="facts-title">Три важных факта</h2>
+        </div>
+
+        <div class="facts__grid">
+          <article class="fact-card">
+            <p class="fact-card__number">01</p>
+            <h3 class="fact-card__title">Первый факт</h3>
+            <p class="fact-card__text">
+              Конкретная деталь, которая подтверждает главную мысль.
+            </p>
+          </article>
+
+          <article class="fact-card">
+            <p class="fact-card__number">02</p>
+            <h3 class="fact-card__title">Второй факт</h3>
+            <p class="fact-card__text">
+              Действие, выбор, причина или ещё одно доказательство.
+            </p>
+          </article>
+
+          <article class="fact-card fact-card--accent">
+            <p class="fact-card__number">03</p>
+            <h3 class="fact-card__title">Третий факт</h3>
+            <p class="fact-card__text">
+              Результат, изменение или желаемый эффект истории.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Акцентную цитату можно заменить ключевым выводом. -->
+      <blockquote class="quote container">
+        <p>«Короткая фраза, которая раскрывает отношение героя к истории»</p>
+        <cite>Имя героя</cite>
+      </blockquote>
+
+      <section id="result" class="result container" aria-labelledby="result-title">
+        <div>
+          <p class="eyebrow">Итог</p>
+          <h2 id="result-title">Что важно сделать после просмотра</h2>
+        </div>
+        <a class="button button--dark" href="#top">Основное действие</a>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>История подготовлена по интервью</p>
+        <p>Имя исполнителя · 2026</p>
+      </div>
+    </footer>
   </body>
 </html>
+

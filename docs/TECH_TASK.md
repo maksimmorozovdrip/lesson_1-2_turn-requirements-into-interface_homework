@@ -1,5 +1,6 @@
+Ссылка на согласованное ТЗ https://github.com/AndreiChukh/lesson_1-2_turn-requirements-into-interface_practice/pull/9
+Ссылка на исходный файл https://github.com/AndreiChukh/lesson_1-2_turn-requirements-into-interface_practice/blob/master/tech-task-template.md
 # Шаблон ТЗ: история о человеке
-
 ## Темы на выбор
 
 1. **Самое яркое положительное событие.** Событие, которое приятно вспоминать и которое что-то изменило.
