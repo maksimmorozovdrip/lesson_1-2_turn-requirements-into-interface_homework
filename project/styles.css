@@ -1,4 +1,6 @@
 :root {
+  --font-text: Georgia, "Times New Roman", serif;
+--font-ui: Arial, sans-serif;
   --color-bg: #f1ede4;
   --color-surface: #fffdf8;
   --color-text: #22211e;
@@ -77,7 +79,6 @@ a:focus-visible {
 }
 
 .eyebrow,
-.hero__note-label,
 .section-heading__number,
 .fact-card__number {
   margin: 0 0 14px;
@@ -119,17 +120,6 @@ h2 {
   font-size: 21px;
 }
 
-.hero__note {
-  padding: 30px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  background: var(--color-surface);
-}
-
-.hero__note p:last-child {
-  margin-bottom: 0;
-  font-size: 20px;
-}
 
 .button {
   display: inline-block;
@@ -176,12 +166,12 @@ h2 {
 
 .facts__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  grid-template-columns: 1fr; /*сделал карточки друг за другом */
+  border-top: 2px solid var(--color-text);
 }
 
 .fact-card {
-  min-height: 270px;
+  min-height: 140px; /* уменьшил размер */
   padding: 26px;
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
@@ -220,12 +210,6 @@ h2 {
   line-height: 1.25;
 }
 
-.quote cite {
-  color: var(--color-muted);
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  font-style: normal;
-}
 
 .result {
   display: flex;
