@@ -1,6 +1,4 @@
 :root {
-  --font-text: Georgia, "Times New Roman", serif;
---font-ui: Arial, sans-serif;
   --color-bg: #f1ede4;
   --color-surface: #fffdf8;
   --color-text: #22211e;
@@ -240,5 +238,12 @@ h2 {
 @media (max-width: 768px) {
   #result-title {
     font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .story,
+  .facts {
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
 }
