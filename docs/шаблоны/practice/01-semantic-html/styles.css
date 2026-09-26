@@ -1,4 +1,0 @@
-.story { padding: 32px; color: #2f302d; background: #f7f2e8; border-top: 4px solid #a54d38; font-family: Georgia, serif; }
-.story > header { display: flex; justify-content: space-between; gap: 40px; padding-bottom: 26px; border-bottom: 1px solid #bdb6aa; }
-.story > header p { margin: 0; color: #a54d38; font: 700 12px/1 Arial, sans-serif; text-transform: uppercase; }.story h2 { max-width: 600px; margin: 0; font-size: 36px; }.story section { display: grid; grid-template-columns: 180px 1fr; padding: 24px 0; border-bottom: 1px solid #d5cfc4; }.story h3, .story section p { margin: 0; }.story section p { color: #68645d; line-height: 1.5; }.story footer { padding-top: 24px; text-align: right; }.story a { color: #a54d38; text-underline-offset: 5px; }
-
