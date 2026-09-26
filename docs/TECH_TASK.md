@@ -1,5 +1,3 @@
-Ссылка на согласованное ТЗ https://github.com/AndreiChukh/lesson_1-2_turn-requirements-into-interface_practice/pull/9
-Ссылка на исходный файл https://github.com/AndreiChukh/lesson_1-2_turn-requirements-into-interface_practice/blob/master/tech-task-template.md
 # Шаблон ТЗ: история о человеке
 ## Темы на выбор
 
@@ -155,6 +153,7 @@
 
 **Комментарий заказчика:** «ТЗ СОГЛАСОВАНО»
 
-**Ссылка на PR с ТЗ:** https://github.com/AndreiChukh/lesson_1-2_turn-requirements-into-interface_practice/pull/5
+**Ссылка на PR с ТЗ:** https://github.com/AndreiChukh/lesson_1-2_turn-requirements-into-interface_practice/pull/9
+Ссылка на исходный файл https://github.com/AndreiChukh/lesson_1-2_turn-requirements-into-interface_practice/blob/master/tech-task-template.md
 
 **Статус:** MERGED
