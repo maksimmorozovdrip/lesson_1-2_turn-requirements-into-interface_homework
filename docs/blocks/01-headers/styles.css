@@ -1,0 +1,37 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #20201e; background: #ecebe6; font-family: Arial, sans-serif; }
+a { color: inherit; }
+.preview { width: 1180px; margin: 0 auto; padding: 56px 0 96px; }
+.preview__heading { margin-bottom: 56px; }
+.preview__heading > a { font-size: 14px; }
+.preview__heading p { margin: 32px 0 8px; color: #777; text-transform: uppercase; letter-spacing: .14em; }
+.preview__heading h1 { margin: 0; font-size: 54px; }
+.demo { margin-top: 32px; padding: 28px; background: #f8f5ed; }
+.demo--dark { color: #f1f6f3; background: #101412; }
+.demo--blue { background: #dce8ff; }
+.demo__label { margin: 0 0 20px; opacity: .65; font: 700 11px/1 monospace; text-transform: uppercase; letter-spacing: .12em; }
+
+/* Вариант 1 */
+.header-a { display: flex; justify-content: space-between; align-items: center; padding: 22px 0; border-top: 1px solid #242421; border-bottom: 1px solid #242421; font-family: Georgia, serif; }
+.header-a__brand { font-size: 24px; font-weight: 700; text-decoration: none; }
+.header-a__nav { display: flex; gap: 34px; }
+.header-a__nav a { color: #615d56; text-decoration-thickness: 1px; text-underline-offset: 5px; }
+.header-a__nav a:hover { color: #bd4e35; }
+
+/* Вариант 2 */
+.header-b { display: grid; grid-template-columns: 1fr auto; align-items: center; min-height: 74px; border: 1px solid #3e4843; font: 700 13px/1 monospace; }
+.header-b__brand { align-self: stretch; display: flex; align-items: center; padding: 0 24px; color: #b9ff5a; text-decoration: none; border-right: 1px solid #3e4843; }
+.header-b__nav { display: flex; align-items: center; height: 100%; }
+.header-b__nav a { display: flex; align-items: center; height: 100%; padding: 0 22px; text-decoration: none; border-left: 1px solid #3e4843; }
+.header-b__nav a:hover { color: #101412; background: #b9ff5a; }
+.header-b__nav .header-b__action { color: #b9ff5a; }
+
+/* Вариант 3 */
+.header-c { display: flex; justify-content: space-between; align-items: center; padding: 14px 18px 14px 14px; background: #fff; border: 2px solid #213965; border-radius: 24px; box-shadow: 8px 8px 0 #213965; }
+.header-c__brand { display: flex; gap: 12px; align-items: center; font-weight: 800; text-decoration: none; }
+.header-c__brand span { display: grid; place-items: center; width: 42px; height: 42px; color: #fff; background: #ff6d4a; border-radius: 50%; }
+.header-c__nav { display: flex; gap: 8px; }
+.header-c__nav a { padding: 10px 16px; text-decoration: none; border-radius: 999px; }
+.header-c__nav a:hover { color: #fff; background: #213965; }
+a:focus-visible { outline: 3px solid #ff6d4a; outline-offset: 3px; }
+

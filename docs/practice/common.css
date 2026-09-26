@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #202522; background: #e8ebe8; font-family: Arial, sans-serif; }
+.lesson { width: 1120px; margin: 0 auto; padding: 52px 0 90px; }
+.lesson__back { color: inherit; font-size: 14px; text-underline-offset: 4px; }
+.lesson__header { margin: 34px 0 42px; }.lesson__number { margin: 0 0 10px; color: #5b7469; font: 700 12px/1 monospace; letter-spacing: .13em; text-transform: uppercase; }.lesson__header h1 { margin: 0; font: 700 52px/1 Georgia, serif; }.lesson__lead { max-width: 720px; margin: 18px 0 0; color: #617069; font-size: 18px; line-height: 1.5; }
+.example { padding: 38px; background: #fff; border: 1px solid #b7c0bb; }.example__label { margin: 0 0 24px; color: #688077; font: 700 11px/1 monospace; letter-spacing: .12em; text-transform: uppercase; }
+.task { display: grid; grid-template-columns: 170px 1fr; gap: 24px; margin-top: 24px; padding: 24px; color: #49351e; background: #fff0c7; border-left: 6px solid #e89b31; }.task h2 { margin: 0; font-size: 18px; }.task p { margin: 0; line-height: 1.5; }.task code { padding: 2px 5px; background: rgba(255,255,255,.6); }
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 4px solid #f0714f; outline-offset: 3px; }
+

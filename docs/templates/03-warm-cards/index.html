@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Универсальный карточный шаблон персональной истории"
+    />
+    <title>Название истории — имя героя</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header container">
+      <a class="site-header__brand" href="#top">Имя героя</a>
+      <nav class="site-header__nav" aria-label="Навигация по истории">
+        <a href="#story">О чём история</a>
+        <a href="#steps">Главное</a>
+        <a href="#next">Дальше</a>
+      </nav>
+    </header>
+
+    <main id="top" class="container page">
+      <!-- Простая карточная композиция с мягким визуальным характером. -->
+      <section class="hero card" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <p class="eyebrow">Тема истории</p>
+          <h1 id="hero-title">Заголовок, который раскрывает человека</h1>
+          <p class="hero__lead">
+            Короткое описание главной мысли. Оно должно быть понятно без
+            дополнительного контекста и длинного вступления.
+          </p>
+          <a class="button" href="#story">Прочитать историю</a>
+        </div>
+
+        <div class="hero__badge" aria-label="Главный факт">
+          <span>Главный факт</span>
+          <strong>Один заметный результат или вывод</strong>
+        </div>
+      </section>
+
+      <!-- Рассказ можно использовать для реальной или гипотетической темы. -->
+      <section id="story" class="story" aria-labelledby="story-title">
+        <div class="story__heading">
+          <p class="eyebrow">История</p>
+          <h2 id="story-title">Почему это важно</h2>
+        </div>
+
+        <div class="story__body card">
+          <p class="story__lead">
+            Начните с контекста: события, цели, проекта, навыка или идеи.
+          </p>
+          <p>
+            Раскройте действие или выбор героя. Укажите только те подробности,
+            которые помогают посетителю понять главную мысль.
+          </p>
+          <p>
+            Завершите результатом, ожидаемым эффектом или объяснением того,
+            какие качества эта история раскрывает.
+          </p>
+        </div>
+      </section>
+
+      <!-- Три элемента подходят для фактов, причин, желаний или этапов. -->
+      <section id="steps" class="steps" aria-labelledby="steps-title">
+        <div class="story__heading">
+          <p class="eyebrow">Главное</p>
+          <h2 id="steps-title">Три опорные мысли</h2>
+        </div>
+
+        <div class="steps__grid">
+          <article class="idea-card card">
+            <span class="idea-card__index">01</span>
+            <h3 class="idea-card__title">Первая мысль</h3>
+            <p class="idea-card__text">Контекст или первый важный факт.</p>
+          </article>
+
+          <article class="idea-card card">
+            <span class="idea-card__index">02</span>
+            <h3 class="idea-card__title">Вторая мысль</h3>
+            <p class="idea-card__text">Действие, причина или выбор героя.</p>
+          </article>
+
+          <article class="idea-card idea-card--highlight card">
+            <span class="idea-card__index">03</span>
+            <h3 class="idea-card__title">Третья мысль</h3>
+            <p class="idea-card__text">Результат или желаемое изменение.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="reflection card" aria-labelledby="reflection-title">
+        <p class="eyebrow">Ключевая фраза</p>
+        <h2 id="reflection-title">
+          «Цитата или короткий вывод, который помогает услышать голос героя»
+        </h2>
+      </section>
+
+      <section id="next" class="next-step" aria-labelledby="next-title">
+        <div>
+          <p class="eyebrow">Следующий шаг</p>
+          <h2 id="next-title">Что посетитель может сделать дальше</h2>
+        </div>
+        <a class="button button--secondary" href="#top">Основное действие</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>История создана по интервью</p>
+        <p>Имя исполнителя · 2026</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
